@@ -10,14 +10,17 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <section className="py-2 border-b border-gray-300 pb-8">
+    <section className="pt-4 border-b border-gray-300 pb-8">
       <div className="container mx-auto px-20">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-10">
             {/* <Image 
                   src=""
                 /> */}
-            <h3 className="font-bold text-3xl">Raiment</h3>
+            <div className=" ">
+              <h3 className="font-bold text-3xl">Raiment</h3>
+            
+            </div>
             <div className="w-230">
               <div className="relative">
                 {/* Search Icon */}

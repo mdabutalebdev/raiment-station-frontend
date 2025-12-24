@@ -28,6 +28,7 @@ body {
 
 /* Swiper pagination bullets black */
 .swiper-pagination-bullet {
+  
   background-color: black !important;
 }
 
@@ -37,5 +38,10 @@ body {
 /* Navigation arrows black */
 .swiper-button-next,
 .swiper-button-prev {
-  color: black !important;
+  color: white !important;
+  height: 40px !important;
+  width: 40px !important;
+  background: rgb(120, 118, 118) !important;
+  padding: 8px;
+  border-radius: 50%;
 } 
