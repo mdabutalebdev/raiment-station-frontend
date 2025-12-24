@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Swiper pagination bullets black */
+.swiper-pagination-bullet {
+  background-color: black !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+}
+/* Navigation arrows black */
+.swiper-button-next,
+.swiper-button-prev {
+  color: black !important;
+} 
