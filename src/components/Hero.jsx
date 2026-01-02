@@ -8,22 +8,22 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import Image from 'next/image';
 
 const slides = [
-  "/images/banner-one.jpg",
-  "/images/banner_two.jpg",
-  "/images/banner_3.jpg",
-  "/images/banner_four.jpg"
+  "/images/banner-1.jpg",
+  "/images/banner-2.jpg",
+   "/images/banner-one.jpg"
 ];
 
 const Hero = () => {
   return (
-    <section className="w-full">
-      <Swiper
+    <section className="pb-10  bg-white">
+      <div className="container mx-auto px-20">
+        <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop
-        className="w-full h-[28rem] lg:h-[36rem]"
+        className="w-full h-[28rem] lg:h-[30rem]"
       >
         {slides.map((src, idx) => (
           <SwiperSlide key={idx}>
@@ -32,12 +32,13 @@ const Hero = () => {
                 src={src}
                 alt={`Slide ${idx + 1}`}
                 fill
-                className="object-content w-full h-full"
+                className="object-content w-full h-full rounded-md"
               />
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
+      </div>
     </section>
   );
 };

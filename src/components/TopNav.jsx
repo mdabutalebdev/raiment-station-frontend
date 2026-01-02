@@ -16,7 +16,7 @@ const TopNav = () => {
             Contact Us
             </Link>
         </div>
-        <div className="flex items-center gap-20 text-white">
+        <div className="flex items-center gap-10 text-white">
             <Link href="#" className='flex items-center gap-1 font-normal text-[14px]'>
            <FiPhone />
 

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Solid Black",
+    "type": "Solid",
+    "price": 1200,
+    "image": "/images/1353331855680118784.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pure White Tee",
+    "type": "Solid",
+    "price": 1200,
+    "image": "/images/1206549713184632832.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Heavy Metal Skull",
+    "type": "Custom Print",
+    "price": 1500,
+    "image": "/images/55097536-8ed3-44c8-b6a5-13d0c989c0da.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Vintage Rock Print",
+    "type": "Custom Print",
+    "price": 1500,
+    "image": "/images/1206549713184632832.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Custom Name Tee",
+    "type": "Custom Print",
+    "price": 1400,
+    "image": "/images/55097536-8ed3-44c8-b6a5-13d0c989c0da.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Monochrome Stripes",
+    "type": "Solid",
+    "price": 1300,
+    "image": "/images/1353331855680118784.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Graffiti Vibes",
+    "type": "Custom Print",
+    "price": 1550,
+    "image": "/images/keep-you-faith-motivational-quotes-t-shirt-design_692083-525.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Classic Gray Tee",
+    "type": "Solid",
+    "price": 1250,
+    "image": "/images/55097536-8ed3-44c8-b6a5-13d0c989c0da.jpg"
+  }
+]

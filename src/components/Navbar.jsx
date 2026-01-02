@@ -10,17 +10,19 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <section className="pt-4 border-b border-gray-300 pb-8">
-      <div className="container mx-auto px-20">
-        <div className="flex items-center justify-between">
+    <section className="py-5">
+      <div className=" shadow bg-white">
+        <div className="flex items-center justify-between container mx-auto px-20">
           <div className="flex items-center gap-10">
             {/* <Image 
                   src=""
                 /> */}
+            <Link href="/" className="">
             <div className=" ">
-              <h3 className="font-bold text-3xl">Raiment</h3>
+              <h3 className="font-bold text-3xl">Ratex BD</h3>
             
             </div>
+            </Link>
             <div className="w-230">
               <div className="relative">
                 {/* Search Icon */}
@@ -38,14 +40,13 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-center gap-5">
-            <div className="h-10 w-10 border border-gray-700 rounded-full">
-              <IoIosGitCompare className="flex items-center justify-center h-10 w-5 mx-auto" />
-            </div>
-            <div className="h-10 w-10 border border-gray-700 rounded-full">
-              <CiHeart className="flex items-center justify-center h-10 w-5 mx-auto" />
-            </div>
+           
+           
             <div className="h-10 w-10 border border-gray-700 rounded-full">
               <FiUser className="flex items-center justify-center h-10 w-5 mx-auto" />
+            </div>
+             <div className="h-10 w-10 border border-gray-700 rounded-full">
+              <CiHeart className="flex items-center justify-center h-10 w-5 mx-auto" />
             </div>
             <div className="h-10 w-24 px-2 flex items-center border border-gray-500 rounded-xl">
               <FiShoppingCart className="flex items-center justify-center w-5 h-10 mx-auto" />
@@ -53,19 +54,15 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-8 items-center justify-center pt-5">
+        <div className="border-b border-gray-300 pt-4"></div>
+        <div className="flex gap-8 py-5 items-center justify-center container mx-auto px-20">
           <Link href="/">Home</Link>
-          <Link href="/panjabi">Panjabi</Link>
-          <Link href="/t-shirt">T-Shirts</Link>
-          <Link href="/shirts">Shirts</Link>
-          <Link href="/polo-shirts">Polo Shirts</Link>
-          <Link href="/jeans">Jeans</Link>
-          <Link href="/trousers">Trousers</Link>
-          <Link href="/jacket-hoodies">Jackets & Hoodies</Link>
-          <Link href="/blazers">Blazers & Coats</Link>
-          <Link href="/shorts">Shorts</Link>
-          <Link href="/shoes">Shoes</Link>
+          <Link href="/">Shop Now</Link>
+         
+          <Link href="/shirts">Combos</Link>
           <Link href="/accessories">Accessories</Link>
+          <Link href="/accessories">Size Guide</Link>
+          <Link href="/accessories">Contact Us</Link>
         </div>
       </div>
     </section>
