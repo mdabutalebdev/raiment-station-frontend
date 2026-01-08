@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Nusrat Jahan",
+    "date": "12 Dec 2025",
+    "review": "টি-শার্টের কাপড় খুব সফট, প্রিন্ট কোয়ালিটি একদম পারফেক্ট।",
+    "profile": "/images/profile.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sadia Rahman",
+    "date": "15 Dec 2025",
+    "review": "Solid color combo টা বাস্তবে আরও সুন্দর লাগছে। অনেক পছন্দ হয়েছে।",
+    "profile": "/images/t-shirt.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Rumana Akter",
+    "date": "18 Dec 2025",
+    "review": "দামের তুলনায় কোয়ালিটি অসাধারণ। ডেলিভারিও সময়মতো পেয়েছি।",
+    "profile": "/images/profile.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Farzana Islam",
+    "date": "22 Dec 2025",
+    "review": "প্রথম অর্ডার ছিল, কিন্তু একদম সন্তুষ্ট। আবার অর্ডার করবো।",
+    "profile": "/images/t-shirt.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Mim Akter",
+    "date": "26 Dec 2025",
+    "review": "কম্বো হিসেবে খুব ভালো ডিল। কাপড় আর ফিটিং দুটাই ভালো।",
+    "profile": "/images/profile.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tania Sultana",
+    "date": "30 Dec 2025",
+    "review": "Simple design কিন্তু দেখতে খুব স্মার্ট। Daily wear এর জন্য পারফেক্ট।",
+    "profile": "/images/t-shirt.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Jannatul Ferdous",
+    "date": "02 Jan 2026",
+    "review": "প্যাকেজিং সুন্দর ছিল, প্রোডাক্টও একদম ঠিকঠাক পেয়েছি।",
+    "profile": "/images/profile.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Sharmin Akter",
+    "date": "05 Jan 2026",
+    "review": "Solid color print খুব ক্লিন। এই বাজেটে এরকম আশা করিনি।",
+    "profile": "/images/t-shirt.jpg"
+  }
+]

@@ -1,3 +1,4 @@
+import CustomerReview from "@/components/CustomerReview";
 import FeaturedCategory from "@/components/FeaturedCategory";
 import Hero from "@/components/Hero";
 import NewArrivel from "@/components/NewArrivel";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero/>
       <NewArrivel/>
       <TopSellingProduct/>
+      <CustomerReview/>
     </>
   );
 }
